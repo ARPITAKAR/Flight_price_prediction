@@ -1,0 +1,48 @@
+PS C:\Users\Arpit\Desktop\attempt>
+PS C:\Users\Arpit\Desktop\attempt> conda activate flask_ml
+PS C:\Users\Arpit\Desktop\attempt> python --version
+Python 3.11.9
+PS C:\Users\Arpit\Desktop\attempt> git init
+Initialized empty Git repository in C:/Users/Arpit/Desktop/attempt/.git/
+PS C:\Users\Arpit\Desktop\attempt> git add .
+warning: in the working copy of 'data/flight_price.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/test.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/train.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/val.csv', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Arpit\Desktop\attempt> git commit -m "initial commit"
+[master (root-commit) e778a65] initial commit
+ 5 files changed, 11687 insertions(+)
+ create mode 100644 Readme.md
+ create mode 100644 data/flight_price.csv
+ create mode 100644 data/test.csv
+ create mode 100644 data/train.csv
+ create mode 100644 data/val.csv
+PS C:\Users\Arpit\Desktop\attempt> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\Arpit\Desktop\attempt> git remote add origin https://github.com/ARPITAKAR/Flight_price_prediction.git
+PS C:\Users\Arpit\Desktop\attempt> git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 151.73 KiB | 1.67 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ARPITAKAR/Flight_price_prediction.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\Arpit\Desktop\attempt> git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 2.39 KiB | 244.00 KiB/s, done.
+From https://github.com/ARPITAKAR/Flight_price_prediction
+   e778a65..9c29a48  master     -> origin/master
+Updating e778a65..9c29a48
+Fast-forward
+ .gitignore | 162 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 162 insertions(+)
+ create mode 100644 .gitignore
+PS C:\Users\Arpit\Desktop\attempt> 
